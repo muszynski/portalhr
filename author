@@ -1,0 +1,15 @@
+<div class="autor_wrapper" style="width:200px; margin:0px; margin-bottom:10px;">
+<div class="autor_zdjecie" style="float:left; width:50px; margin-bottom:5px;"><img name="" src="" width="50" height="80" alt="" style="background-color: #4b4b4b" /></div>
+<div class="autor_bio" style="float:right; width:144px;">
+<h3 class="autor_imie_i_nazwisko" style="color:#e20074; font-size:14px; font-family:Tele-GroteskEENor, Arial, Helvetica, sans-serif;">
+<?php the_author_meta('display_name'); ?>
+</h3>
+<h4 class="dane kontaktowe" style="font-size:11px; padding-bottom:3px;"><a href="mailto:<?php the_author_meta('user_email'); ?>">E-Mail</a></h4>
+<h4 class="dane kontaktowe" style="font-size:11px; padding-bottom:3px;">Telefon:&nbsp;<?php the_author_meta('aim'); ?></h4>
+<h4 class="dane kontaktowe" style="font-size:11px; padding-bottom:3px;">Stanowisko:&nbsp;<?php the_author_meta('yim'); ?></h4>
+<div class="autor_info" style="font-size:11px; color:#4b4b4b; font-family:Tele-GroteskEENor, Arial, Helvetica, sans-serif;">
+<p><?php the_author_meta('description'); ?></p>
+</div>
+</div>
+</div>
+<div style="clear:both"></div>
